@@ -56,13 +56,13 @@ int main(int argc, char **argv)
 }
 
 void version(){
-  cerr << "SketchSort Min-Max Distance version 0.0.1" << endl;
+  cerr << "SketchSort Min-Max Distance - version 0.0.1" << endl;
   cerr << "Written by Yasuo Tabei" << endl << endl;
 }
 
 void usage(){
   cerr << endl
-       << "Usage: sketchsortj [OPTION]... INFILE OUTFILE" << endl << endl
+       << "Usage: sketchsort-minmax [OPTION]... INFILE OUTFILE" << endl << endl
        << "       where [OPTION]...  is a list of zero or more optional arguments" << endl
        << "             INFILE       is the name of an input file" << endl
        << "             OUTFILE      is the name of an output file" << endl << endl
@@ -77,9 +77,9 @@ void usage(){
        << "       (default: " << numchunks << ")" << endl
        << "       -auto " << endl
        << "       -missingratio" << endl
+       << "       (default: " << missingratio << ")" << endl
        << "       -znormalization" << endl
        << "       -minmaxnormalization"  << endl
-       << "       (default: " << missingratio << ")" << endl
        << endl;
   exit(0);
 }
