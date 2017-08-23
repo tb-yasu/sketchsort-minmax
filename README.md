@@ -25,22 +25,37 @@ c++ compilar and boost library
 Usage: sketchsortj [OPTION]... INFILE OUTFILE
 
        where [OPTION]...  is a list of zero or more optional arguments
+
              INFILE       is the name of an input file
+
              OUTFILE      is the name of an output file
 
 Additional arguments (input and output files may be specified):
+
        -hamdist [maximum hamming distance]
+
        (default: 1)
+
        -numblocks [the number of blocks]
+
        (default: 3)
+
        -minmax  [min-max distance threshold]
+
        (default: 0.1)
+
        -numchunks [the number of chunks]
+
        (default: 3)
+
        -auto 
+
        -missingratio [upper bound of false negative rate. large value makes sketchsort faster.]
+
        (default: 0.0001)
+
        -znormalization [dataset is z-nomalized]
+       
        -minmaxnormalization [data is minmax-nomalized]
 
 ## Author
