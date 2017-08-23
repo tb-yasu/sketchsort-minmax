@@ -42,6 +42,9 @@ Additional arguments (input and output files may be specified):
        -znormalization [dataset is z-nomalized]  
        -minmaxnormalization [data is minmax-nomalized]  
 
+## License
+New BSD License
+
 ## Author
 [Yasuo Tabei](https://sites.google.com/site/yasuotabei/)
 
