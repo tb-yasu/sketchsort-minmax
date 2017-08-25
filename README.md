@@ -48,10 +48,6 @@ New BSD License
 [Yasuo Tabei](https://sites.google.com/site/yasuotabei/)
 
 ## Reference 
-[1] Yasuo Tabei, Takeaki Uno, Masashi Sugiyama, Koji Tsuda: Single Versus Multiple Sorting in All Pairs Similarity Search, ACML'10. 
+[1] Yasuo Tabei, Takeaki Uno, Masashi Sugiyama, Koji Tsuda: Single Versus Multiple Sorting in All Pairs Similarity Search, ACML'10
 
-[2] Ping Li: Linearized GMM Kernels and Normalized Random Fourier Features, KDD'17.
-
-
-
-
+[2] Ping Li: Linearized GMM Kernels and Normalized Random Fourier Features, KDD'17
