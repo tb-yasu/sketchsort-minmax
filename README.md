@@ -15,7 +15,7 @@ for quickly solving large-scale all pairs similarity search.
 ## Quick Start
 cd src  
 make  
-./sketchsort-minmax -auto -znormalization -missingratio 0.0001 -minmax 0.1 ../dat/dat1000.txt outputfile
+./sketchsort-minmax -auto -znormalization -missingratio 0.0001 -minmax 0.2 ../dat/dat1000.txt outputfile
 
 ## Requirement
 c++ compilar and boost library
@@ -31,7 +31,7 @@ Additional arguments (input and output files may be specified):
        (default: 1)  
        -numblocks [the number of blocks]  
        (default: 3)  
-       -minmax  [min-max distance threshold]  
+       -minmax  [min-max distance threshold (1 - minmax similarity)]  
        (default: 0.1)  
        -numchunks [the number of chunks]  
        (default: 3)  

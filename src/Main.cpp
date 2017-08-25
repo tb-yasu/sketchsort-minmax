@@ -71,15 +71,15 @@ void usage(){
        << "       (default: " << hamDist << ")" << endl
        << "       -numblocks [the number of blocks]" << endl
        << "       (default: " << numblocks << ")" << endl
-       << "       -minmax  [min-max distance threshold]" << endl
+       << "       -minmax  [min-max distance threshold] (1 - minmax similarity)" << endl
        << "       (default: " << minmaxDist << ")" << endl
        << "       -numchunks [the number of chunks]" << endl
        << "       (default: " << numchunks << ")" << endl
        << "       -auto " << endl
        << "       -missingratio" << endl
        << "       (default: " << missingratio << ")" << endl
-       << "       -znormalization" << endl
-       << "       -minmaxnormalization"  << endl
+       << "       -znormalization (data is z-normalized)" << endl
+       << "       -minmaxnormalization (data is minmax-normalized)"  << endl
        << endl;
   exit(0);
 }
